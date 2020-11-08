@@ -1,0 +1,59 @@
+/*--
+    - Section Title Css
+-------------------------------*/
+
+
+.section-title {
+    margin-bottom: 60px;
+    text-align: center;
+    @media #{$large-mobile}{
+        margin-bottom: 50px;
+    }
+    & h2 {
+        font-size: 30px;
+        margin-top: -4px;
+        font-weight: 500;
+        text-transform: capitalize;
+        margin-bottom: 15px;
+        color: $theme-color;
+        & span {
+            color: #333;
+            font-weight: 300;
+        }
+        @media #{$large-mobile}{
+            font-size: 26px;
+        }
+    }
+    & p {
+        font-size: 16px;
+    }
+    &.text-black {
+        & h2 {
+            color: #fff;
+        }
+        & p {
+            color: #fff;
+        }
+    }
+}
+
+
+.about-title {
+    & h4 {
+        text-transform: capitalize;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    & h2 {
+        font-size: 30px;
+        margin-top: -4px;
+        font-weight: 500;
+        text-transform: capitalize;
+        margin-bottom: 15px;
+        color: $theme-color;
+        & span {
+            color: #333;
+            font-weight: 300;
+        }
+    }
+}

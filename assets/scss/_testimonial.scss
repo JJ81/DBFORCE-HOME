@@ -1,0 +1,140 @@
+/*-- 
+    12. Testimonial Area Css
+-----------------*/
+
+.single-testimonial {
+    & .client-say {
+        color: #fff;
+        padding: 40px 30px;
+        border-radius: 60px;
+        background: rgba(0, 0, 0, 0.1) linear-gradient(to bottom, rgba(7, 82, 150, 0.6) 0%, #09C7E0 100%) repeat scroll 0 0;
+        background-size: cover;
+        position: relative;
+        position: relative;
+        &::after {
+            position: absolute;
+            content: "";
+            bottom: -45px;
+            left: 65px;
+            border-top: 50px solid $theme-color;
+            border-right: 0 solid transparent;
+            border-left: 35px solid transparent;
+            border-bottom: 0 solid transparent;
+            z-index: 99;
+            transform: rotate(-12deg);
+        }
+    }
+    .client-author {
+        bottom: 0;
+        margin-top: 10px;
+        padding-left: 120px;
+        & h4 {
+            color: #333;
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 2px;
+        }
+        & p {
+            color: #333;
+            font-size: 14px;
+        }
+    }
+}
+.testimonial-active {
+    & .slick-dots {
+        margin-top: 40px;
+        text-align: center;
+            & li {
+                display: inline-block;
+                margin: 0 15px;
+                position: relative;
+                line-height: 0;
+                &::after {
+                    position: absolute;
+                    content: "";
+                    background: #09c7e0;
+                    top: 5px;
+                    left: 0;
+                    width: 40px;
+                    height: 2px;
+                    
+                }
+                &:last-child {
+                    &::after {
+                        display: none;
+                    }
+                }
+                & {
+                    button {
+                    border: 2px solid $theme-color;
+                    width: 10px;
+                    height: 10px;
+                    padding: 0;
+                    border-radius: 50%;
+                    background: $theme-color;
+                    text-indent: -9999px;
+                    position: relative;
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        background: rgba(1, 193, 206, 0.3);
+                        top: -5px;
+                        left: -5px;
+                        width: 16px;
+                        height: 16px;
+                        border-radius: 50%;
+                        z-index: 999;
+                    }
+                }
+                &.slick-active {
+                    & button {
+                        background: $theme-color;
+                        &::after {
+                            position: absolute;
+                            content: "";
+                            background: rgba(1, 193, 206, 0.5);
+                            top: -5px;
+                            left: -5px;
+                            width: 16px;
+                            height: 16px;
+                            border-radius: 50%;
+                            z-index: 999;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.center-testimonial {
+        & .single-testimonial {
+            & .client-say {
+                color: #333;
+                background: rgba(0, 0, 0, 0.1) linear-gradient(to bottom, rgba(221, 221, 221, 0.6) 0%, $grey 100%) repeat scroll 0 0;
+                &::after {
+                    border-top: 50px solid $grey;
+                }
+            }
+            .client-author {
+                & h4 {
+                    color: #333;
+                }
+                & p {
+                    color: #333;
+                }
+            }
+        }
+        & .slick-slide {
+            &.slick-center {
+                & .testimonial-content {
+                    & .client-say {
+                        color: #fff;
+                        background: rgba(0, 0, 0, 0.1) linear-gradient(to bottom, rgba(7, 82, 150, 0.8) 0%, #09C7E0 100%) repeat scroll 0 0;
+                        &::after {
+                            border-top: 50px solid $theme-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

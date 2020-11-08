@@ -1,0 +1,120 @@
+/*--
+    08. Slider Screenshort Css
+----------------------------*/
+.slider-screenshort {
+    margin-top: -260px;
+    @media #{$tablet-device}{
+        margin-top: -170px;
+    } 
+    @media #{$large-mobile}{
+        margin-top: 60px;
+    } 
+}
+.slider-screenshot-active {
+    padding: 0 15px;
+    & .slick-slide {
+        padding: 140px 0;
+        transition: all 0.5s ease 0s;
+        & .singel-screenshot {
+            transition: all 0.5s ease 0s;
+        }
+        &.slick-active {
+            z-index: 99;
+            .singel-screenshot {
+                transform: scale(1.8);
+            }
+        }
+        &.slick-center {
+            z-index: 999;
+            .singel-screenshot {
+                transform: scale(2.4);
+            }
+        }
+        @media #{$tablet-device}{
+            padding: 64px 0;
+            &.slick-active {
+                .singel-screenshot {
+                    transform: scale(1.5);
+                }
+            }
+            &.slick-center {
+                .singel-screenshot {
+                    transform: scale(2);
+                }
+            }
+        } 
+        @media #{$large-mobile}{
+            padding: 50px 0;
+        } 
+    }
+ 
+}
+
+
+.screenshot-center-active {
+    & .slick-dots {
+        margin-top: 40px;
+        text-align: center;
+            & li {
+                display: inline-block;
+                margin: 0 12px;
+                position: relative;
+                line-height: 0;
+                &::after {
+                    position: absolute;
+                    content: "";
+                    background: #09c7e0;
+                    top: 5px;
+                    left: 0;
+                    width: 40px;
+                    height: 2px;
+                    
+                }
+                &:last-child {
+                    &::after {
+                        display: none;
+                    }
+                }
+                & {
+                    button {
+                    border: 2px solid $theme-color;
+                    width: 10px;
+                    height: 10px;
+                    padding: 0;
+                    border-radius: 50%;
+                    background: $theme-color;
+                    text-indent: -9999px;
+                    position: relative;
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        background: rgba(1, 193, 206, 0.3);
+                        top: -5px;
+                        left: -5px;
+                        width: 16px;
+                        height: 16px;
+                        border-radius: 50%;
+                        z-index: 999;
+                    }
+                }
+                &.slick-active {
+                    & button {
+                        background: $theme-color;
+                        &::after {
+                            position: absolute;
+                            content: "";
+                            background: rgba(1, 193, 206, 0.5);
+                            top: -5px;
+                            left: -5px;
+                            width: 16px;
+                            height: 16px;
+                            border-radius: 50%;
+                            z-index: 999;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,123 @@
+/*--
+   09. Priceing Area Css
+----------------------*/
+.priceing-bg {
+    background: url(../images/priceing/01.png);
+    background-size: cover;
+}
+.single-price-package {
+    padding: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+    @media #{$desktop-device}{
+        padding: 40px;
+    }
+    & .price-title {
+        & h4 {
+            font-size: 16px;
+        }
+        & h2 {
+            font-size: 24px;
+            line-height: 28px;
+        }
+    }
+    & .price-list {
+        margin-bottom: 40px;
+        margin-top: 40px;
+        & ul {
+            & li {
+                margin-bottom: 10px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    & .price-btn {
+        & .button {
+            padding: 8px 30px;
+            border-radius: 30px;
+            border: 2px solid $theme-color;
+            color: $theme-color;
+            background: transparent;
+            transition: all 0.4s ease-in-out;
+            &:hover {
+                color: $white;
+                background: $theme-color;
+            }
+        }
+    }
+    &.active {
+        & .price-btn {
+            & .button {
+                border: 2px solid $theme-color;
+                color: $white;
+                background: $theme-color;
+                &:hover {
+                    color: $theme-color;
+                    background: $white;
+                }
+            }
+        }
+    }
+    &.active-table {
+        & .price-title {
+            & h4 {
+                color: $white;
+            }
+            & h2 {
+                color: $white;
+            }
+        } 
+        & .price-list {
+            & ul {
+                & li {
+                    color: $white;
+                }
+            }
+        }
+        & .price-btn {
+            & .button {
+                border: 2px solid $white;
+                color: $theme-color;
+                background: $white;
+                &:hover {
+                    border: 2px solid #333;
+                    color: $white;
+                    background: #333;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

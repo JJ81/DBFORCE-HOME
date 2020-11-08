@@ -1,0 +1,70 @@
+/*--
+    15. Footer Area Css
+-------------------------------*/
+.footer-bg {
+    background: url(../images/bg/footer-bg.jpg);
+    background-size: cover;
+}
+.footer-top {
+    color: $white;
+    & .footer-logo {
+       margin-top: 30px 
+    }
+    .footer-list {
+        margin-top: 30px;
+        & ul {
+            & li {
+                margin-bottom: 10px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+.footer-address {
+    margin-top: 30px;
+    & .footer-info {
+        margin-bottom: 15px;
+        & p {
+           margin: 0; 
+            & a{
+                &:hover {
+                    color: #333;
+                }
+            }
+        }
+    }
+}
+.footer-bottom {
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.1);
+    @media #{$large-mobile,$tablet-device}{
+        text-align: center;
+    }
+    & .social-link {
+        & ul {
+            & li {
+                display: inline-block;
+                margin-right: 10px;
+                & a {
+                    display: block;
+                    color: $white;
+                    font-size: 16px;
+                    &:hover {
+                        color: $theme-color;
+                    }
+                }
+            }
+        }
+    }
+    & .copy-right {
+        color: $white;
+        float: right;
+        @media #{$large-mobile,$tablet-device}{
+            float: inherit;
+            text-align: center;
+            margin-top: 10px;
+        }
+    }
+}

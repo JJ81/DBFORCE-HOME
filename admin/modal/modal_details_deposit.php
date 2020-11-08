@@ -1,0 +1,43 @@
+<div class="modal fade" id="modalDepositInfo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                    정기예금 상세정보
+                </h5>
+                <button type="button" class="close btn-modal-close" data-dismiss="modal" aria-label="Close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div style="max-height: 700px;overflow-y: auto;resize: vertical;">
+                    <table class="table table-hover">
+                        <tr>
+                            <th>공시제출월</th>
+                            <th>저축금리유형</th>
+                            <th>저축기간</th>
+                            <th>저축금리</th>
+                            <th>저축 우대금리</th>
+                        </tr>
+                        <tr v-if="infos.length === 0">
+                            <td class="center" colspan="5">등록된 정보가 없습니다.</td>
+                        </tr>
+
+                        <tr v-else v-for="info in infos">
+                            <td class="center">{{info.dcls_month}}</td>
+                            <td class="center">{{info.intr_rate_type_nm}} <small>({{info.intr_rate_type}})</small></td>
+                            <td class="center color-primary">{{info.save_trm}}</td>
+                            <td class="center color-primary">{{info.intr_rate}}</td>
+                            <td class="center color-primary">{{info.intr_rate2}}</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-warning" data-dismiss="modal">닫기</button>
+            </div>
+
+        </div>
+    </div>
+</div>

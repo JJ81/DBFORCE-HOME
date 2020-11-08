@@ -1,0 +1,162 @@
+/*--
+    10. Subscribe Area Css
+---------------------------------*/
+.subscribe-bg {
+    background: url(../images/bg/01.jpg);
+    background-position: bottom;
+}
+.subscribe-bg-2 {
+    background: url(../images/bg/02.jpg);
+    background-position: bottom;
+}
+.subscribe-title {
+    margin-bottom: 40px;
+    & h2 {
+        color: $white;
+        font-weight: 400;
+    }
+    & p {
+        color: $white;
+    }
+}
+.subscribe-form-area {
+    & .subscribe-form-inner {
+        position: relative;
+        &::before {
+            background: url(../images/icon/subscribe-b.png);
+            background-size: cover;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            content: "";
+            width: 100%;
+            height: 1px;
+        }
+        & input {
+            width: 100%;
+            background: transparent;
+            border: none;
+            color: $white;
+            padding: 10px 40px 10px 10px;
+            position: relative;
+            font-size: 14px;
+            &::placeholder {
+                color: $white;
+            }
+            &::-webkit-input-placeholder {
+                color: $white;
+            } 
+            &::-moz-placeholder {
+                color: $white;
+            } 
+            &::-ms-input-placeholder {
+                color: $white;
+            }
+        }
+        & .subscribe-btn {
+            background: transparent;
+            position: absolute;
+            right: 0;
+            top: 0;
+            border: none;
+            color: $white;
+            padding: 10px 15px;
+            font-size: 18px;
+        }
+    } 
+}
+/*--
+    11. Faequently Css
+-------------------------------*/
+.question-content-wrap{margin-top: 30px;}
+.faequently-accordion h4{
+    position: relative;
+    font-size: 20px;
+    padding: 0 0 0 30px;
+    margin-bottom: 16px;
+    position: relative;
+    &::after {
+        background: #01c1ce;
+        content: "";
+        position: absolute;
+        left: 4px;
+        top: 9px;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+    }
+    &::before {
+        background: rgba(1, 193, 206, 0.1);
+        content: "";
+        position: absolute;
+        left: 0px;
+        top: 5px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        padding: 8px;
+    }
+    & a {
+        font-size: 18px;
+    } 
+    &.open {
+        position: relative;
+        width: auto;
+        &::after {
+            background: #01c1ce;
+            content: "";
+            position: absolute;
+            left: 4px;
+            top: 9px;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+        }
+        &::before {
+            background: rgba(1, 193, 206, 0.4);
+            content: "";
+            position: absolute;
+            left: 0px;
+            top: 5px;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            padding: 8px;
+        }
+    }
+}
+.faequently-description {
+    padding: 0px 0 15px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
