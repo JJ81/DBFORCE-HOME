@@ -2,88 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6edda8e1-43e0-4ec2-95a3-e0af3528c691" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api/mail/send_mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/mail/send_mail2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/partner/partner_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/partner/partner_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/partner/partner_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/partner/partner_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/service/dbforce-display.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/service/display_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/service/display_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/service/display_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/service/display_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/service/faq.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/service/policy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/preview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/DBFORCE-HOME.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DBFORCE-HOME.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agreement.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/agreement.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_profit.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/best_profit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_profit_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/best_profit_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/briefing.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/briefing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/briefing_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/briefing_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/center.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/center_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/company.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/customer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/customer_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily_news.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/daily_news.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily_news_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/daily_news_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/details.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/details.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/event.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/event_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/faq.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/faq_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/find_id.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/find_id.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/find_id_result.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/find_id_result.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/find_pw.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/find_pw.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/find_pw_result.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/find_pw_result.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/free_profit.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/free_profit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/free_profit_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/free_profit_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/group.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/group.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/group_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/group_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/interview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/interview_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market_news.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/market_news.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market_news_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/market_news_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketing.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/marketing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/media.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/media_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member_profit.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/member_profit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member_profit_modify.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/member_profit_modify.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member_profit_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/member_profit_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member_profit_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/member_profit_write.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/news.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/news_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notice.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/notice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notice_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/notice_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/philosophy.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/philosophy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/preview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/privacy.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/privacy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profit.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/profit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profit_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/profit_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qna.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/qna.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qna_modify.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/qna_modify.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qna_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/qna_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qna_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/qna_write.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refund.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/refund.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reset_pw.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/reset_pw.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/review.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/review.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/review_profit.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/review_profit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/review_profit_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/review_profit_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/review_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/review_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/service.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/social.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/social_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_schedule.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/stock_schedule.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_schedule_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/stock_schedule_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/strategy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usage.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/usage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vip.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/vip.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vip_profit.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/vip_profit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vip_profit_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/vip_profit_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/db_info.php" beforeDir="false" afterPath="$PROJECT_DIR$/Database/db_info.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/ajax-mail.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ajax-mail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/commons/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/_backup/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -132,7 +81,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/logo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/api/mail" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -146,15 +95,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/mail" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/assets/images/partner" />
+      <recent name="$PROJECT_DIR$/assets/images/service" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_backup" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/images/logo" />
-      <recent name="$PROJECT_DIR$/assets/images" />
-      <recent name="$PROJECT_DIR$/assets/js" />
-      <recent name="$PROJECT_DIR$/assets" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -172,7 +121,11 @@
       <updated>1604709558310</updated>
       <workItem from="1604709560884" duration="9507000" />
       <workItem from="1605130243697" duration="318000" />
-      <workItem from="1605131180336" duration="532000" />
+      <workItem from="1605131180336" duration="2294000" />
+      <workItem from="1605532351062" duration="3832000" />
+      <workItem from="1605568272108" duration="3880000" />
+      <workItem from="1605610926519" duration="1497000" />
+      <workItem from="1605651303654" duration="2107000" />
     </task>
     <servers />
   </component>
@@ -184,29 +137,33 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="887" y="355" key="#PHP/-1440.-732.1440.2537/2560.23.3440.1417/0.23.2560.1417@0.23.2560.1417" timestamp="1604709609205" />
-    <state x="505" y="310" width="1071" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605130259306">
+    <state x="505" y="310" width="1071" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605651357992">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="505" y="310" width="1071" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.-732.1440.2537/2560.23.3440.1417/0.23.2560.1417@0.23.2560.1417" timestamp="1605130259306" />
-    <state width="2518" height="225" key="GridCell.Tab.0.bottom" timestamp="1605130591700">
+    <state x="505" y="310" width="1071" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.-732.1440.2537/2560.23.3440.1417/0.23.2560.1417@0.23.2560.1417" timestamp="1605651357992" />
+    <state width="2518" height="238" key="GridCell.Tab.0.bottom" timestamp="1605653421495">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="225" key="GridCell.Tab.0.bottom/-1440.-732.1440.2537/2560.23.3440.1417/0.23.2560.1417@0.23.2560.1417" timestamp="1605130591700" />
-    <state width="2518" height="225" key="GridCell.Tab.0.center" timestamp="1605130591699">
+    <state width="2518" height="238" key="GridCell.Tab.0.bottom/-1440.-732.1440.2537/2560.23.3440.1417/0.23.2560.1417@0.23.2560.1417" timestamp="1605653421495" />
+    <state width="2518" height="238" key="GridCell.Tab.0.center" timestamp="1605653421494">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="225" key="GridCell.Tab.0.center/-1440.-732.1440.2537/2560.23.3440.1417/0.23.2560.1417@0.23.2560.1417" timestamp="1605130591699" />
-    <state width="2518" height="225" key="GridCell.Tab.0.left" timestamp="1605130591699">
+    <state width="2518" height="238" key="GridCell.Tab.0.center/-1440.-732.1440.2537/2560.23.3440.1417/0.23.2560.1417@0.23.2560.1417" timestamp="1605653421494" />
+    <state width="2518" height="238" key="GridCell.Tab.0.left" timestamp="1605653421494">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="225" key="GridCell.Tab.0.left/-1440.-732.1440.2537/2560.23.3440.1417/0.23.2560.1417@0.23.2560.1417" timestamp="1605130591699" />
-    <state width="2518" height="225" key="GridCell.Tab.0.right" timestamp="1605130591699">
+    <state width="2518" height="238" key="GridCell.Tab.0.left/-1440.-732.1440.2537/2560.23.3440.1417/0.23.2560.1417@0.23.2560.1417" timestamp="1605653421494" />
+    <state width="2518" height="238" key="GridCell.Tab.0.right" timestamp="1605653421495">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2518" height="225" key="GridCell.Tab.0.right/-1440.-732.1440.2537/2560.23.3440.1417/0.23.2560.1417@0.23.2560.1417" timestamp="1605130591699" />
-    <state x="945" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1604710798295">
+    <state width="2518" height="238" key="GridCell.Tab.0.right/-1440.-732.1440.2537/2560.23.3440.1417/0.23.2560.1417@0.23.2560.1417" timestamp="1605653421495" />
+    <state x="889" y="372" width="1003" height="714" key="find.popup" timestamp="1605568446508">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="945" y="348" width="670" height="676" key="search.everywhere.popup/-1440.-732.1440.2537/2560.23.3440.1417/0.23.2560.1417@0.23.2560.1417" timestamp="1604710798295" />
+    <state x="889" y="372" width="1003" height="714" key="find.popup/-1440.-732.1440.2537/2560.23.3440.1417/0.23.2560.1417@0.23.2560.1417" timestamp="1605568446508" />
+    <state x="945" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1605568295895">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="945" y="348" width="670" height="676" key="search.everywhere.popup/-1440.-732.1440.2537/2560.23.3440.1417/0.23.2560.1417@0.23.2560.1417" timestamp="1605568295895" />
   </component>
 </project>

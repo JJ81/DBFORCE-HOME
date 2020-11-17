@@ -7,17 +7,19 @@ setlocale(LC_MONETARY, 'en_US');
 define('ROOT', $root = (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/');
 define('SESS_DURATION', 60 * 60 * 8 * 100); // set 60min for expiry time 8h x 100
 define('VERSION', "202010220938");
-define('TITLE', "한국경제투자TV");
+define('TITLE', "고객관리시스템, 디비포스");
+define('SITE_URL', "http://dbforce.co.kr/");
+define('DESCRIPTION', '매일 진화하는 고객관리시스템, 디비포스DBFORCE');
 
 // define('EMAIL_RECEIVER', 'info@jcorporationtech.com');
 // define("PHONE_NUMBER", "");
 // define("SMS_RECEIVER", "");
-define('KAKAO_TALK', 'http://pf.kakao.com/_xgVCbK/chat');
-define('YOUTUBE_URL', 'https://www.youtube.com/channel/UCJCX0RWnzUvaJMjiJTYKvXQ');
+//define('KAKAO_TALK', 'http://pf.kakao.com/_xgVCbK/chat');
+//define('YOUTUBE_URL', 'https://www.youtube.com/channel/UCJCX0RWnzUvaJMjiJTYKvXQ');
 //define('EVENT_PAGE_URL', 'http://event.keib.co.kr/');
-define('EVENT_PAGE_URL', 'http://promotion.keib.co.kr/');
-define('REPRESENTATIVE_NUMBER', '1566-8331');
-define('BANK_ACCOUNT', '123-4567-890');
+//define('EVENT_PAGE_URL', 'http://promotion.keib.co.kr/');
+//define('REPRESENTATIVE_NUMBER', '1566-8331');
+//define('BANK_ACCOUNT', '123-4567-890');
 
 // define('SMS_TEST_MODE', 'N');
 define('CURRENT_URL', (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");

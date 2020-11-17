@@ -1,30 +1,65 @@
+<?php
+require_once ('commons/config.php');
+require_once("./commons/utils.php");
+require_once("./autoload.php");
+
+
+?>
 <!doctype html>
 <html class="no-js" lang="ko">
 
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>고객관리시스템, 디비포스</title>
-    <meta name="description" content="">
+    <title><?php echo TITLE;?></title>
+    <meta name="description" content="진화하는 고객관리시스템, 디비포스DBFORCE">
+    <meta name="keyword" content="CRM, 고객관리시스템, 디비포스, DBFORCE, 유사투자자문, 대부중개업, 보험, 대출, 핸드폰, 인터넷, 모바일" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.gif">
-    <!-- preview 이미지 설정 필요함. -->
-
+    <meta name="author" content="제이코퍼레이션" />
+    <meta name="naver-site-verification" content="38eec51f54fdd514bbe0247135b4c2cc2a90ae7e"/>
+    <meta name="google-site-verification" content="KKNtMEQG0B43jDvm8aWQOwap2YWV8M_dpw4ww3E9ES0" />
+    <link rel="shortcut icon" href="/assets/favicon.png?v=<?php echo VERSION;?>" type="image/x-icon" />
+    <link rel="canonical" href="<?php echo SITE_URL;?>" />
     <!-- CSS
     ========================= -->
 
+    <meta property="og:title" content="<?php echo TITLE;?>" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="<?php echo SITE_URL;?>" />
+    <meta property="og:image" content="/assets/preview.jpg?v=<?php echo VERSION;?>" />
+    <meta property="og:description" content="<?php echo DESCRIPTION;?>" />
+    <meta property="og:image:width" content="185" />
+    <meta property="og:image:height" content="185" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="<?php echo TITLE;?>" />
+    <meta name="twitter:url" content="<?php echo SITE_URL;?>" />
+    <meta name="twitter:image" content="/assets/preview.jpg?v=<?php echo VERSION;?>" />
+    <meta name="twitter:description" content="<?php echo DESCRIPTION;?>" />
+
+
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css?v=<?php echo VERSION;?>">
 
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/css/plugins.css">
+    <link rel="stylesheet" href="assets/css/plugins.css?v=<?php echo VERSION;?>">
 
     <!-- Main Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo VERSION;?>">
 
     <!-- Modernizer JS -->
-    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js?v=<?php echo VERSION;?>"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JC1F73CDBT"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-JC1F73CDBT');
+    </script>
 </head>
 
 <body>
@@ -57,7 +92,7 @@
                                     <li><a href="#pricing">가격정책</a></li>
                                     <li><a href="#testimonial">사용후기</a></li>
                                     <li><a href="#faq">FAQ</a></li>
-                                    <li><a href="#team">고객사</a></li>
+                                    <li><a href="#team">파트너</a></li>
                                     <li><a href="#contact">무료체험신청</a></li>
                                 </ul>
                             </nav>
@@ -106,31 +141,32 @@
                 <div class="col-lg-12">
                     <!-- Singel Screenshot Start -->
                     <div class="singel-screenshot">
-                        <img src="assets/images/screenshot/screenimage-02.jpg" alt="">
+                        <img src="assets/images/service/display_01.jpg" alt="" />
                     </div>
                     <!-- Singel Screenshot End -->
                 </div>
                 <div class="col-lg-12">
                     <!-- Singel Screenshot Start -->
                     <div class="singel-screenshot">
-                        <img src="assets/images/screenshot/screenimage-01.jpg" alt="">
+                        <img src="assets/images/service/display_02.jpg" alt="" />
                     </div>
                     <!-- Singel Screenshot End -->
                 </div>
                 <div class="col-lg-12">
                     <!-- Singel Screenshot Start -->
                     <div class="singel-screenshot">
-                        <img src="assets/images/screenshot/screenimage-03.jpg" alt="">
+                        <img src="assets/images/service/display_03.jpg" alt="" />
                     </div>
                     <!-- Singel Screenshot End -->
                 </div>
                 <div class="col-lg-12">
                     <!-- Singel Screenshot Start -->
                     <div class="singel-screenshot">
-                        <img src="assets/images/screenshot/screenimage-04.jpg" alt="">
+                        <img src="assets/images/service/display_04.jpg" alt="" />
                     </div>
                     <!-- Singel Screenshot End -->
                 </div>
+
             </div>
         </div>
     </div>
@@ -263,14 +299,14 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12 order-1 order-lg-2">
                     <div class="about-image text-center">
-                        <img src="assets/images/about/01.png" alt="">
+                        <img src="assets/images/service/policy.jpg" alt="" />
                         <div class="about-video-button">
-                            <a href="https://www.youtube.com/watch?v=0O2aH4XLbto" class="video-btn popup-youtube"><i class="fa fa-play"></i></a>
-                            <div class="video-animation">
-                                <div class="animation animation-1"></div>
-                                <div class="animation animation-2"></div>
-                                <div class="animation animation-3"></div>
-                            </div>
+<!--                            <a href="https://www.youtube.com/watch?v=0O2aH4XLbto" class="video-btn popup-youtube"><i class="fa fa-play"></i></a>-->
+<!--                            <div class="video-animation">-->
+<!--                                <div class="animation animation-1"></div>-->
+<!--                                <div class="animation animation-2"></div>-->
+<!--                                <div class="animation animation-3"></div>-->
+<!--                            </div>-->
                         </div>
                     </div>
                 </div>
@@ -362,7 +398,7 @@
                             </ul>
                         </div>
                         <div class="price-btn">
-                            <button type="button" class="button">Buy Now</button>
+                            <a href="#contact" class="button">Buy Now</a>
                         </div>
                     </div>
                     <!-- Single Price Package End -->
@@ -384,7 +420,7 @@
                             </ul>
                         </div>
                         <div class="price-btn">
-                            <button type="button" class="button">Buy Now</button>
+                            <a href="#contact" type="button" class="button">Buy Now</a>
                         </div>
                     </div>
                     <!-- Single Price Package End -->
@@ -406,7 +442,7 @@
                             </ul>
                         </div>
                         <div class="price-btn">
-                            <button type="button" class="button">Buy Now</button>
+                            <a href="#contact" class="button">Buy Now</a>
                         </div>
                     </div>
                     <!-- Single Price Package End -->
@@ -430,8 +466,8 @@
             <div class="row">
                 <div class="col-lg-6  ml-auto mr-auto">
                     <div class="subscribe-form-area">
-                        <form action="#" class="subscribe-form-inner">
-                            <input type="text" placeholder="Your Email Please">
+                        <form action="/api/mail/send_mail.php" class="subscribe-form-inner" method="post">
+                            <input type="email" name="email" placeholder="이메일 입력" required />
                             <button class="subscribe-btn"><i class="fa fa-paper-plane"></i></button>
                         </form>
                     </div>
@@ -590,7 +626,7 @@
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2">
                     <div class="question-image">
-                        <img src="assets/images/about/faq-01.png" alt="">
+                        <img src="assets/images/service/faq.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -604,8 +640,8 @@
             <div class="row">
                 <div class="col-lg-6 ml-auto mr-auto">
                     <div class="section-title">
-                        <h2>주요 고객사 <span>- Our Clients </span></h2>
-                        <p>디비포스DBFORCE를 사용하시는 주요 고객사입니다.</p>
+                        <h2>주요 파트너사 <span>- Our Partners </span></h2>
+                        <p>디비포스DBFORCE를 사용하시는 주요 파트너사입니다.</p>
                     </div>
                 </div>
             </div>
@@ -613,60 +649,31 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="single-team mb--30">
                         <div class="team-imgae">
-                            <img src="assets/images/team/01.jpg" alt="" />
+                            <img src="assets/images/partner/partner_01.jpg" alt="" />
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="single-team mb--30">
                         <div class="team-imgae">
-                            <img src="assets/images/team/01.jpg" alt="" />
+                            <img src="assets/images/partner/partner_02.jpg" alt="" />
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="single-team mb--30">
                         <div class="team-imgae">
-                            <img src="assets/images/team/01.jpg" alt="" />
+                            <img src="assets/images/partner/partner_03.jpg" alt="" />
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="single-team mb--30">
                         <div class="team-imgae">
-                            <img src="assets/images/team/01.jpg" alt="" />
+                            <img src="assets/images/partner/partner_04.jpg" alt="" />
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-team mb--30">
-                        <div class="team-imgae">
-                            <img src="assets/images/team/01.jpg" alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-team mb--30">
-                        <div class="team-imgae">
-                            <img src="assets/images/team/01.jpg" alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-team mb--30">
-                        <div class="team-imgae">
-                            <img src="assets/images/team/01.jpg" alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-team mb--30">
-                        <div class="team-imgae">
-                            <img src="assets/images/team/01.jpg" alt="" />
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>
@@ -694,19 +701,19 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <form class="contact-form-area" action="mail.php" method="post" id="contact-form">
+                    <form class="contact-form-area" action="/api/mail/send_mail2.php" method="post" id="contact-form">
                         <div class="row contact-form">
                             <div class="form-group col-md-12">
                                 <input name="name" class="form-control" placeholder="상호명/성명" type="text" id="name">
                             </div>
                             <div class="form-group col-md-12">
-                                <input name="tel" class="form-control" placeholder="휴대전화번호" type="tel" id="email">
+                                <input name="tel" class="form-control" placeholder="휴대전화번호 (- 포함)" type="tel" id="phone">
                             </div>
                             <div class="form-group col-md-12">
                                 <input name="email" class="form-control" placeholder="이메일" type="email" id="subject">
                             </div>
                             <div class="form-group col-md-12">
-                                <textarea name="message" class="문의사항 form-control" placeholder="Message"></textarea>
+                                <textarea name="message" class="문의사항 form-control" placeholder="문의내용"></textarea>
                             </div>
                             <div class="submit-form form-group col-sm-12">
                                 <button class="button submit-btn" type="submit"><span>보내기</span></button>
@@ -747,10 +754,6 @@
         </div>
     </footer>
     <!-- Footor Area End -->
-
-
-
-
 </div>
 <!-- Main Wrapper End -->
 
@@ -766,9 +769,9 @@
 <!-- Plugins JS -->
 <script src="assets/js/plugins.js"></script>
 <!-- Ajax Mail -->
-<script src="assets/js/ajax-mail.js"></script>
+<script src="assets/js/ajax-mail.js?v=<?php echo VERSION;?>"></script>
 <!-- Main JS -->
-<script src="assets/js/main.js"></script>
+<script src="assets/js/main.js?v=<?php echo VERSION;?>"></script>
 
 
 </body>

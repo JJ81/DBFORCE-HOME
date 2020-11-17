@@ -2318,7 +2318,7 @@ body.box-body {
 }
 .single-team .team-imgae {
   position: relative;
-  max-height:269px;
+  /*max-height:269px;*/
   overflow: hidden;
 }
 .single-team .team-imgae img {

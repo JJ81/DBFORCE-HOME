@@ -27,6 +27,7 @@ $(function() {
 
 			// Set the message text.
 			$(formMessages).text(response);
+			alert(response);
 
 			// Clear the form.
 			$('#contact-form input,#contact-form textarea').val('');
@@ -39,8 +40,9 @@ $(function() {
 			// Set the message text.
 			if (data.responseText !== '') {
 				$(formMessages).text(data.responseText);
+				alert(data.responseText);
 			} else {
-				$(formMessages).text('Oops! An error occured and your message could not be sent.');
+				$(formMessages).text('에러가 발생하여 요청이 되지 않았습니다. 잠시 후에 다시 시도해 주세요.');
 			}
 		});
 	});
